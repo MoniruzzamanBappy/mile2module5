@@ -12,8 +12,9 @@ body {
 /* <!-- top player and blogs style --> */
 
 /* top player */
+
 main {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -51,6 +52,7 @@ hr {
 }
 
 /* top blogs */
+
 .top-blogs {
     margin: 15px;
 }
@@ -83,4 +85,24 @@ hr {
 .blog-author a {
     color: red;
     text-decoration: none;
+}
+
+/* special courses design */
+
+.section-2 {
+    width: 870px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 36px;
+    padding: 15px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course-photo img {
+    width: 224px;
+    height: 104px;
 }
